@@ -1,0 +1,20 @@
+Projekti mõte on mõnest API endpointist data alla laadida kasutades `fetch`i ja sellest veebileht teha. Lähed https://freepublicapis.com ja valid ise välja millist endpointi tahad kasutada.
+
+Projekt on hindeline ja vastamine käib suuliselt. AI-ga progejad jäävad lebolt vahele, ära raiska sellega enda aega.
+
+## Vajalikud lingid
+
+- Kuidas `fetch` töötab: https://tinkr.tech/docs/fetch-get
+- APIde nimekiri: https://www.freepublicapis.com/
+- Koodi repo saad projektile luua: https://github.com
+
+## Töö protsess
+
+1. Teed GitHubis projektile repo.
+1. kasutades `git clone` tood repo oma arvutisse.
+1. lood index.html, style.css ja script.js failid (käsureal kasutad `touch` käsku).
+1. index.html tahab `link` ja `script` *tage*, et ühendada kolm faili kokku.
+1. tood data alla kasutades `fetch` käsku.
+1. ehitad sellest datast veebilehe. kui data muutub, muutub ka su leht, ei *hardcode*.
+1. vasta õpetajale
+
