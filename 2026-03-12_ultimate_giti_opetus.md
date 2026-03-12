@@ -4,45 +4,7 @@ Siin on konkreetsed lahendused olukordadele kuhu sa Gitiga satud.
 
 ---
 
-## 1. Tegin muudatused koodis, kuidas GitHubi saan?
-
-Sul on juba projekt olemas ja kloonitud. Sa tegid muudatusi failides ja tahad need GitHubi üles saada.
-
-```
-git add .
-```
-See lisab KÕIK muudetud ja uued failid staging alasse. Punkt tähendab "kõik siin kaustas".
-
-```
-git status
-```
-Vaata üle, et rohelised failid on need mida tahad commitida.
-
-```
-git commit -m "kirjelda mida tegid"
-```
-See salvestab su muudatused lokaalse ajaloo sisse. Sõnum peaks olema lühike aga arusaadav, nt "added navbar styling" või "fixed broken link".
-
-```
-git push
-```
-See saadab su commitid GitHubi serverisse.
-
-**Kontrolli tulemust:**
-1. Mine `github.com` peale
-2. Ava oma repo
-3. Vaata kas failid on uuenenud ja kas su commit on näha
-
-**Kiire versioon kõik korraga:**
-```
-git add .
-git commit -m "sinu sõnum"
-git push
-```
-
----
-
-## 2. Kuidas alustada uut projekti?
+## 1. Kuidas alustada uut projekti?
 
 ### Samm 1: Tee repo GitHubis
 1. Mine `github.com` peale
@@ -77,6 +39,44 @@ git push
 
 ### Samm 6: Kontrolli
 Mine tagasi `github.com` oma repo peale ja vaata kas failid on kohal.
+
+---
+
+## 2. Tegin muudatused koodis, kuidas GitHubi saan?
+
+Sul on juba projekt olemas ja kloonitud. Sa tegid muudatusi failides ja tahad need GitHubi üles saada.
+
+```
+git add .
+```
+See lisab KÕIK muudetud ja uued failid staging alasse. Punkt tähendab "kõik siin kaustas".
+
+```
+git status
+```
+Vaata üle, et rohelised failid on need mida tahad commitida.
+
+```
+git commit -m "kirjelda mida tegid"
+```
+See salvestab su muudatused lokaalse ajaloo sisse. Sõnum peaks olema lühike aga arusaadav, nt "added navbar styling" või "fixed broken link".
+
+```
+git push
+```
+See saadab su commitid GitHubi serverisse.
+
+**Kontrolli tulemust:**
+1. Mine `github.com` peale
+2. Ava oma repo
+3. Vaata kas failid on uuenenud ja kas su commit on näha
+
+**Kiire versioon kõik korraga:**
+```
+git add .
+git commit -m "sinu sõnum"
+git push
+```
 
 ---
 
